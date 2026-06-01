@@ -28,7 +28,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy >=2.1
-    - imagecodecs >=2026.3.6
+    - imagecodecs >=2026.5.10
   run_constrained:
     - matplotlib-base >=3.3
     # zarr3 will now raise a value error
